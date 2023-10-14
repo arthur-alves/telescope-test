@@ -13,10 +13,9 @@ MAX_PAGES=5 # numbers of max pages used by playwright to avoid cpu overloads. It
 SHOW_BROWSER=False #If you don't want to show the browser process
 ```
 
-
 Put the CSV with g2crowd urls inside the `apps/g2crowd/csv_in/` folder. If your csv have more than one column, the script will ask to you the correct column to start the scrapper.
 
-After that run the command below:
+After that run the command below from project root path:
 
 ```
 python run_g2crow_scrap.py

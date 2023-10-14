@@ -20,7 +20,7 @@ SHOW_BROWSER=False #If you don't want to show the browser process
 
 Put the CSV with company names inside the `apps/linkedin/csv_in/` folder. If your csv have more than one column, the script will ask to you the correct column to start the scrapper.
 
-Run this command below after inserted the csv:
+Run this command below only after inserted the csv from project root path:
 
 ```
 python run_linkedin_scrap.py

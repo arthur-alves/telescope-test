@@ -14,7 +14,7 @@ Follow this instructions below, download your credentials.json and put it inside
 
 ### Running:
 
-Run the command below:
+Run the command below from project root path:
 
 ```
 flask --app main.py run --debug
