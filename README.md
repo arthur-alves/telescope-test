@@ -1,12 +1,12 @@
 # How to install this project:
 
-We highly recommend to user **Pyenv**:
+We highly recommend to use **Pyenv**:
 
-Install PyEnv to manage different Python versions
+Install Pyenv to manage different Python versions.
 
-See documentation for installation: [Pyenv Docs](https://github.com/pyenv/pyenv "Pyenv docs")
+See documentation for installation in this link: [Pyenv Docs](https://github.com/pyenv/pyenv "Pyenv docs")
 
-Please user Python version  3.10.13, run this command after install pyenv:
+Please use Python version  `3.10.13`, for this use  this command to install pyenv specific version:
 
 ```
 pyenv install 3.10.13
@@ -20,18 +20,24 @@ virtualenv/.pyenv/versions/3.10.13/bin/virtualenv .venv
 source .venv/bin/activate
 ```
 
-After that install the project itself:
+After that, install the project itself:
 
 ```
 pip install -r requirements.txt
 ```
 
-And after run this command to install the Playwright browser:
+And also, run this command bellow to install the Playwright browsers:
 
 ```
 playwright install
 ```
 
+### Apps of this project:
+
 Now follow the app steps to run using link below:
 
-[Run Linkedin Scrapper](apps/linkedin/README.md "Linkedin Docs")
+[- Run Linkedin Scrapper](apps/linkedin/README.md "Linkedin Docs")
+
+[- Run G2Crowd Crawler](apps/g2crowd/README.md "G2 Crawler Docs")
+
+[- Run Google Drive Search APP](apps/google_drive/README.md "Google Drive Search Docs")
